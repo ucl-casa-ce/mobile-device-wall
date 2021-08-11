@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mqtt": "^4.2.8",
+    "winston": "^3.3.3",
+    "ws": "^7.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.1",
+    "typescript": "^4.3.5"
+  },
+  "name": "devicewall-stats",
+  "description": "This node application takes the USB stats service from Cambronix USB SmartHub and publishes the data through to a MQTT Server. We use this within CE to get device and battery data on the CE Device Wall for various applications.",
+  "version": "1.0.0",
+  "main": "usb_hub_to_mqtt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node smarthub_to_mqtt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ucl-casa-ce/device-wall/usb-stats"
+  },
+  "keywords": [
+    "smarthub",
+    "usb",
+    "cambronix",
+    "SuperSync15"
+  ],
+  "author": "Steven Gray",
+  "license": "MIT"
+}

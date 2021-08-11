@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>KeepAlive</key>
+        <dict>
+            <key>SuccessfulExit</key>
+            <false/>
+        </dict>
+        <key>Label</key>
+        <string>uk.ac.ucl.casa.ce.usb-device-wall</string>
+       <key>ProgramArguments</key>
+        <array>
+            <string>/opt/local/bin/node</string>
+            <string>/opt/local/bin/forever</string>
+            <string>-a</string>
+            <string>-l</string>
+            <string>/var/log/uk.ac.ucl.casa.ce.usb-device-wall.log</string>
+            <string>-e</string>
+            <string>/var/log/uk.ac.ucl.casa.ce.usb-device-wall_error.log</string>
+            <string>-w</string>
+            <string>/Users/sjg/t/server.js</string>
+            <string>/Users/sjg/t/server.js</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>StartInterval</key>
+        <integer>3600</integer>
+    </dict>
+</plist>
