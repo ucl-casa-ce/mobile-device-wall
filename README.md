@@ -4,6 +4,7 @@ A collection of Apps and Resources that support the CE Device Wall
 
 ## 📱 Apps 📱
 
+  - [DeviceWall-Stats](./devicewall-stats) - Push Flutter Apps to the Wall
   - [DeviceWall-Stats](./devicewall-stats) - USB SmartHub Data to MQTT
 
 ## 🔩 Hardware 🔩
