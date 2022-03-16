@@ -1,4 +1,4 @@
-# CE Mobile Device Wall 
+# CE Mobile Device Wall
 
 A collection of Apps and Resources that support the CE Device Wall
 

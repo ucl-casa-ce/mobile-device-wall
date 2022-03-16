@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "git-clone": "^0.1.0",
+    "gitclone": "^2.0.0",
+    "mkdirp": "^1.0.4",
+    "nomnom": "^1.8.1",
+    "parse-github-url": "^1.0.2",
+    "stringify-github-short-url": "^3.3.8"
+  },
+  "name": "devicewall-buildserver",
+  "description": "The build server checks github or website location to either build the mobile app with Flutter and deploy to phones on the device wall",
+  "version": "1.0.3",
+  "main": "build.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ucl-casa-ce/mobile-device-wall/devicewall-buildServer"
+  },
+  "keywords": [
+    "mobile",
+    "wall",
+    "build",
+    "flutter",
+    "cli"
+  ],
+  "author": "Steven Gray",
+  "license": "MIT"
+}

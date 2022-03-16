@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const mqtt = require('mqtt');
 const WebSocket = require('ws');
 const dotenv = require('dotenv').config()

@@ -19,8 +19,8 @@
             <string>-e</string>
             <string>/var/log/uk.ac.ucl.casa.ce.usb-device-wall_error.log</string>
             <string>-w</string>
-            <string>/Users/sjg/t/server.js</string>
-            <string>/Users/sjg/t/server.js</string>
+            <string>/Users/user/t/server.js</string>
+            <string>/Users/user/t/server.js</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
