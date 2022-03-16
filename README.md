@@ -9,5 +9,6 @@ A collection of Apps and Resources that support the CE Device Wall
 
 ## 🔩 Hardware 🔩
   
-  - [Device Holder](./hardware)Device Holder - Pegboard Holder for the devices
-  - [Cable Guide](./hardware)Cable Guide - Pegboard Cable Guide
+  - [Device Holder](./hardware) - Pegboard Holder for the devices
+  - [Cable Guide](./hardware) - Pegboard Cable Guide
+  
