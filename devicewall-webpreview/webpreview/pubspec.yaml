@@ -1,0 +1,35 @@
+name: WebPreview
+description: A flutter app to display Web Pages through Socket.IO on the UCL Connected Environment's Device Wall.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0-154.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  webview_flutter: ^3.0.1
+  socket_io_client: ^1.0.2
+  path_provider: ^2.0.9
+  device_info_plus: ^3.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  # flutter_launcher_icons: "^0.9.2"
+  flutter_launcher_name: "^0.0.1"
+
+flutter_launcher_name:
+  name: "Device Wall"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true

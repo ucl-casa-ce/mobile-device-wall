@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<!-- Le Styles--> 
+	<link href="https://netdna.bootstrapcdn.com/bootswatch/2.3.2/cyborg/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link href="./css/style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="./favicon.ico" />
+
+	<title>Device Wall - Web Preview</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="circle"></div>
+		<div class="jumbotron">
+			<h1>CE Mobile Device Wall - Web Preview </h1>
+			<p class="lead">
+				Enter the address of the web page to load on the wall
+			</p>
+		</div>
+
+		<div class="passform">
+			<input id="website-entry" type="text" placeholder="Site URL" onkeypress="handleKeyPress(event,this.form)"><br/>
+			<button type="submit" class="btn" id="submitButton" onclick='return submit();'>Load Page</button>
+            <button type="submit" class="btn" id="refreshButton" onclick='return refreshWall();'>Refresh Wall</button>
+		</div>
+
+		<hr/>
+		<div id="devices">
+			<h3 class="subTitle">Devices Connected</h3> 
+			<h5 class="rightNumber">Number of Connected Devices: <span id="number">0<span></h5>
+			<div id="device-list"></div>
+		</div>
+		<hr/>
+
+		<div id="footer">
+			<p>Created by <a href='http://www.stevenjamesgray.com'>Steven Gray</a> at <a href='http://casa.ucl.ac.uk'>UCL CASA</a> - <a href="https://github.com/ucl-casa-ce/mobile-device-wall"> Open Source</a></p>
+			<p><a href="/">Web Preview</a> | <a href="./flutter">Flutter App Install</a> </p>
+		</div>
+
+
+	</div>
+
+	<!-- Javascript --> 
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+	<script src="./socket.io/socket.io.js"></script>
+    
+	<script src="./js/wall.js"></script>
+
+
+	<script>
+		$("#website-entry").focus();
+		
+	</script>
+	</body>
+</html>
