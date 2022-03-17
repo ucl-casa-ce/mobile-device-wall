@@ -1,16 +1,7 @@
-# webpreview
+# 📱🕸️ Flutter Web Preview 🕸️📱
 
-A new Flutter project.
+Web Preview is a simple Flutter App that is deployed to devices on the Wall to allow users to preview websites.  Each device talks to a central server and receives commands to refresh and load web pages on the webview.  Users can inspect cookies and Local Storage on the WebView for debug purposes. 
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt text](https://github.com/ucl-casa-ce/mobile-device-wall/blob/main/z-assets/webpreview-flutter-app.gif?raw=true)
