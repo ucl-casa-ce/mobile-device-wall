@@ -17,3 +17,12 @@ A collection of Apps and Resources that support the CE Device Wall
   - [Device Holder](./hardware/holder) - Pegboard Holder for the devices
   - [Cable Guide](./hardware/cable-organiser) - Pegboard Cable Guide
   
+## Screenshots
+
+## 🖥️ Admin Dashboard Controlling App 🖥️ 
+
+![alt text](https://github.com/ucl-casa-ce/mobile-device-wall/blob/main/z-assets/admin_wall_and_app.gif?raw=true)
+
+## 📱 Installing Flutter Apps 📱
+
+![alt text](https://github.com/ucl-casa-ce/mobile-device-wall/blob/main/z-assets/fluter-install.gif?raw=true)
