@@ -4,4 +4,4 @@
 
 ![alt text](https://github.com/ucl-casa-ce/mobile-device-wall/blob/main/hardware/all-parts-1.png?raw=true)
 
-![alt text](https://github.com/ucl-casa-ce/mobile-device-wall/blob/main/hardware/all-parts-22.png?raw=true)
+![alt text](https://github.com/ucl-casa-ce/mobile-device-wall/blob/main/hardware/all-parts-2.png?raw=true)
