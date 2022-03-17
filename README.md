@@ -9,7 +9,7 @@ A collection of Apps and Resources that support the CE Device Wall
   - [DeviceWall-WebPreview](./devicewall-webpreview) - Collection of apps to preview Websites on the Device Wall
   - [DeviceWall-FlutterApp](./devicewall-webpreview/webpreview) - Flutter App deployed to devices on the Wall for previewing websites
   - [DeviceWall-Admin-Dashboard](./devicewall-webpreview/admin-dashboard) - Webpage to control the upload of Apps and WebSites to the wall
-  - [DeviceWall-Server](./devicewall-webpreview/admin-dashboard) - Node.JS WebSocket server to control the Device Wall
+  - [DeviceWall-Server](./devicewall-webpreview/server) - Node.JS WebSocket server to control the Device Wall
 
 
 ## 🔩 Hardware 🔩
